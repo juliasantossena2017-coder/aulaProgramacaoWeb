@@ -2,19 +2,19 @@
    Sistema de design (tokens)
    ========================= */
 :root{
-  --bg: #d0e420;
-  --card-bg: #f4f6f8;
-  --primary: #3080f036;      /* ajuste conforme identidade */
+  --bg: #f7f8fa;
+  --card-bg: #ffffff;
+  --primary: #0b6efd;      /* ajuste conforme identidade */
   --accent: #00b894;
-  --muted: #278f92;
-  --text: #e23b3b;
+  --muted: #6b7280;
+  --text: #111827;
   --radius: 12px;
   --gap-sm: 0.5rem;
   --gap: 1rem;
   --gap-lg: 2rem;
   --max-width: 1100px;
   --container-padding: 1rem;
-  --shadow-soft: 0 6px 20px rgba(175, 13, 121, 0.911);
+  --shadow-soft: 0 6px 20px rgba(16,24,40,0.06);
   --transition-fast: 200ms;
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
@@ -71,7 +71,7 @@ button{font-family:inherit}
   border-radius:10px;
   border:0;
   background:var(--primary);
-  color:rgb(66, 61, 129);
+  color:white;
   cursor:pointer;
   transition:transform var(--transition-fast), box-shadow var(--transition-fast);
   box-shadow:var(--shadow-soft);
@@ -177,6 +177,8 @@ a:focus, button:focus, input:focus {outline:3px solid rgba(11,110,253,0.18); out
 .mt-1{margin-top:0.5rem}
 
 /* =========================
-   Small interactions
-   ========================= */
-.card:hover{transform:translateY(1px)
+  Small interactions
+  ========================= */
+.card{transition: transform var(--transition-fast), box-shadow var(--transition-fast);}
+.card:hover{transform:translateY(1px); box-shadow: 0 10px 30px rgba(2,6,23,0.08);}
+

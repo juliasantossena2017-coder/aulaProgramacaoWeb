@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Voluntários</title>
+    <title>CADASTRO DE VOLUNTÁRIOS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <nav>
-           <div class="logo">&#128153; Voluntários</div>
+           <div class="logo">&#128153;VOLUNTÁRIOS</div>
             <button class="menu-toggle" onclick="toggleMenu()">☰</button>
             <ul id="navMenu">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="projeto.html">Projetos</a></li>
-                <li><a href="cadastro.html" class="active">cadastro</a></li>
+<<<<<<< HEAD
+                <li><a href="cadastro.html" class="active">Cadastro</a></li>
             </ul>
         </nav>
     </header>
@@ -95,7 +96,16 @@
 
                 <button type="submit" class="btn-primary">Enviar Cadastro</button>
             </form>
-           
+
+            <!-- Lista de Voluntários Cadastrados -->
+            <section class="voluntarios-lista">
+                <h2>Voluntários Cadastrados</h2>
+                <div id="tabelaVoluntarios">
+                    <!-- tabela preenchida via JavaScript -->
+                </div>
+                <button type="button" onclick="limparTabela()">Limpar Tabela</button>
+            </section>
+
         </section>
     </main>
 

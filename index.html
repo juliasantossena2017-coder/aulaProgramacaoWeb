@@ -12,7 +12,7 @@
   <header class="header">
     <div class="container header-inner">
       <div class="logo">
-        <img src="assets/images/logo.png" alt="Logo da ONG" width="40" height="40">
+        <img src="aulaProgramacaoWeb/imagem/teste.jpg" alt="Logo da ONG" width="40" height="40">
         <span>ONG Bem Querer</span>
       </div>
 
@@ -30,85 +30,87 @@
   <!-- HERO / BANNER -->
   <section class="hero container" id="inicio">
     <div class="hero-text">
-      <h1>Transforme o Mundo com Pequenas Ações</h1>
-      <p>Junte-se à nossa rede de voluntários e faça parte de projetos que mudam vidas em comunidades carentes.</p>
-      <button class="btn">Seja Voluntário</button>
-    </div>
+      <!DOCTYPE html>
+      <html lang="pt-BR">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ONG Bem Querer — Início</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
 
-    <div class="hero-card">
-      <img src="c:\Users\julia\OneDrive\Imagens\voluntarios entregando alimentos.jpeg" alt="Voluntários da ONG em ação">
-    </div>
-  </section>
+        <!-- HEADER -->
+        <header class="header">
+          <div class="container header-inner">
+            <div class="logo">
+              <span aria-hidden="true">❤️</span>
+              <span>ONG Bem Querer</span>
+            </div>
 
-  <!-- CONTEÚDO PRINCIPAL -->
-  <main class="container main">
-    <!-- Projetos -->
-    <section id="projetos">
-      <h2>Projetos Ativos</h2>
-      <div class="grid-cols-3">
-        <article class="card">
-          <h3>Projeto Alimentar</h3>
-          <p>Distribuímos cestas básicas para famílias em situação de vulnerabilidade social.</p>
-          <button class="btn secondary">Saiba Mais</button>
-        </article>
+            <nav class="nav" aria-label="Menu principal">
+              <a href="#inicio">Início</a>
+              <a href="#projetos">Projetos</a>
+              <a href="cadastro.html">Seja Voluntário</a>
+              <a href="#contato">Contato</a>
+            </nav>
 
-        <article class="card">
-          <h3>Educar para o Futuro</h3>
-          <p>Oferecemos aulas de reforço escolar e cursos profissionalizantes gratuitos.</p>
-          <button class="btn secondary">Saiba Mais</button>
-        </article>
-
-        <article class="card">
-          <h3>Lar Amigo</h3>
-          <p>Resgatamos e cuidamos de animais abandonados até que encontrem um novo lar.</p>
-          <button class="btn secondary">Saiba Mais</button>
-        </article>
-      </div>
-    </section>
-
-    <!-- Voluntários -->
-    <section id="voluntarios" class="layout">
-      <div>
-        <h2>Seja um Voluntário</h2>
-        <p>Faça parte da nossa equipe de pessoas engajadas que ajudam a construir um futuro melhor.</p>
-
-        <form class="needs-validation" aria-labelledby="titulo-form">
-          <div class="mb-1">
-            <label for="nome">Nome*</label>
-            <input type="text" id="nome" name="nome" class="input" required>
+            <button class="btn btn-menu" aria-label="Abrir menu" aria-expanded="false" onclick="document.getElementById('navMenu').classList.toggle('open')">☰</button>
           </div>
-          <div class="mb-1">
-            <label for="email">E-mail*</label>
-            <input type="email" id="email" name="email" class="input" required>
+        </header>
+
+        <!-- HERO / BANNER -->
+        <section class="hero container" id="inicio">
+          <div class="hero-text">
+            <h1>Transforme Vidas com Voluntariado</h1>
+            <p>Somos uma organização dedicada à inclusão social e ao atendimento de famílias. Junte-se a nós e faça a diferença!</p>
+            <a class="btn" href="cadastro.html">Quero Ser Voluntário</a>
           </div>
-          <div class="mb-1">
-            <label for="area">Área de interesse*</label>
-            <select id="area" name="area" class="input" required>
-              <option value="">Selecione...</option>
-              <option value="educacao">Educação</option>
-              <option value="alimentacao">Alimentação</option>
-              <option value="animais">Cuidado com animais</option>
-            </select>
+
+          <div class="hero-card">
+            <img src="imagem/voluntarios.jpg" alt="Voluntários em ação">
           </div>
-          <button type="submit" class="btn">Enviar Inscrição</button>
-        </form>
-      </div>
+        </section>
 
-      <aside>
-        <h3>Depoimentos</h3>
-        <div class="card">
-          <p>"Participar como voluntária foi uma das melhores experiências da minha vida!"</p>
-          <small>— Ana Paula, 27 anos</small>
-        </div>
-      </aside>
-    </section>
-  </main>
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="container main">
+          <!-- Projetos -->
+          <section id="projetos">
+            <h2>Projetos Ativos</h2>
+            <div class="grid-cols-3">
+              <article class="card">
+                <h3>Projeto Alimentar</h3>
+                <p>Distribuímos cestas básicas para famílias em situação de vulnerabilidade social.</p>
+                <button class="btn secondary">Saiba Mais</button>
+              </article>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>&copy; 2025 ONG Bem Querer — Todos os direitos reservados.</p>
-  </footer>
+              <article class="card">
+                <h3>Educar para o Futuro</h3>
+                <p>Oferecemos aulas de reforço escolar e cursos profissionalizantes gratuitos.</p>
+                <button class="btn secondary">Saiba Mais</button>
+              </article>
 
-  <script src="js/script.js" defer></script>
-</body>
-</html>
+              <article class="card">
+                <h3>Lar Amigo</h3>
+                <p>Resgatamos e cuidamos de animais abandonados até que encontrem um novo lar.</p>
+                <button class="btn secondary">Saiba Mais</button>
+              </article>
+            </div>
+          </section>
+
+          <!-- Quem Somos -->
+          <section class="about">
+            <h2>Quem Somos</h2>
+            <p>Somos uma organização sem fins lucrativos que promove dignidade, esperança e oportunidades para quem mais precisa.</p>
+          </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer" id="contato">
+          <p>&copy; 2025 ONG Bem Querer — Todos os direitos reservados.</p>
+          <p>Feito com ♥ para transformar vidas</p>
+        </footer>
+
+        <script src="script.js" defer></script>
+      </body>
+      </html>

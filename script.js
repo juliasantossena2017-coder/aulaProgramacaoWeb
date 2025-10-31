@@ -1,4 +1,4 @@
-/ script.js - interações simples (defer no script tag recomendado)
+// script.js - interações simples (defer no script tag recomendado)
 
 document.addEventListener('DOMContentLoaded', () => {
   // exemplo: alternar menu mobile (se houver)
